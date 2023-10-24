@@ -1,0 +1,19 @@
+create database blog character set utf8 collate utf8_unicode_ci;
+use blog;
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY AUTO_INCREMENT,
+    Username VARCHAR(20) NOT NULL,
+    Avatar VARCHAR(255),
+    Password VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE Articles (
+    ArticleID INT PRIMARY KEY AUTO_INCREMENT,
+    Title VARCHAR(255) NOT NULL,
+    Introduction text,
+    Tags VARCHAR(20),
+    Content longtext,
+    UserID INT,
+    FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+alter table articles add column Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
