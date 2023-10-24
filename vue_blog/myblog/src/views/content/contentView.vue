@@ -19,5 +19,6 @@ const parms = route.query.id
   width: 1000px;
   margin: 0 auto;
   margin-bottom: 20px;
+  min-height: 400px;
 }
 </style>

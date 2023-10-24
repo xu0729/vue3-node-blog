@@ -76,6 +76,7 @@ const handleSizeChange = (value) => {
 .listContent {
   width: 1000px;
   margin: 0 auto;
+  min-height: 400px;
   span {
     font-size: 14px;
   }

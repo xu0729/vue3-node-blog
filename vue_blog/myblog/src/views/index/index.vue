@@ -15,6 +15,9 @@ import FooterView from '@/components/FooterView.vue'
   background-color: rgb(191, 191, 191);
   height: 33.75rem;
 }
+.el-main {
+  min-height: 400px;
+}
 .el-footer {
   padding: 0;
   position: relative;
