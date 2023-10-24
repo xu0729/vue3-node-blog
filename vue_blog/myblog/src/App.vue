@@ -13,6 +13,9 @@ const route = useRoute()
   margin: 0;
   padding: 0;
 }
+#app {
+  min-width: 1200px;
+}
 li {
   list-style: none;
 }

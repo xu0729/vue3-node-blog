@@ -3,8 +3,10 @@
   <div class="bottom">
     <div class="link">
       友情链接:&nbsp;
-      <a href="/">github &nbsp;</a>
-      <a href="/">网络安全与信息技术协会 &nbsp;</a>
+      <a href="https://github.com/xu0729/vue3-node-blog">github &nbsp;</a>
+      <a href="https://xxh.sdyu.edu.cn/NSITA.htm"
+        >网络安全与信息技术协会 &nbsp;</a
+      >
     </div>
   </div>
 </template>
